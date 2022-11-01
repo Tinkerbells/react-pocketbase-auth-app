@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .customInput {
+    @apply flex justify-between pt-3 px-3 text-xs font-bold text-gray;
+  }
+  .customInput-error {
+    @apply text-dangeColor;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
